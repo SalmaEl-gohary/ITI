@@ -1,0 +1,97 @@
+    1  uname -n 
+    2  uname -r 
+    3  uname -a 
+    4  ls -la
+    5  cls
+    6  clear
+    7  ls
+    8  cat a.txt
+    9  cat a.txt >> f3
+   10  cat f3
+   11  cat a.txt >> f3
+   12  cat -n f3
+   13  gedit f3
+   14  cat -n f3
+   15  clear
+   16  cat -n f3
+   17  clear
+   18  cat -s f3
+   19  cat f3
+   20  cat -s f3
+   21  clear
+   22  cat -E f3
+   23  grep -n f3
+   24  grep -n l f3
+   25  grep -v l f3
+   26  cler
+   27  clear
+   28  grep -c l f3
+   29  cat f3
+   30  cd /etc/wpa_supplicant
+   31  sudo /run/wpa_supplicant/
+   32  sudo cat /run/wpa_supplicant/
+   33  clear
+   34  ls
+   35  ls -al
+   36  cd /run
+   37  cd wpa_supplicant/
+   38  sudo cd wpa_supplicant/
+   39  ls
+   40  cd wpa_supplicant/
+   41  su
+   42  sudo
+   43  sudo cd wpa_supplicant/
+   44  clear
+   45  cat /etc/passwd
+   46  clear
+   47  cut -d: -f1 /etc/passwd
+   48  cut -d: -f2 /etc/passwd
+   49  man cut
+   50  clear
+   51  cd ..
+   52  man cut 
+   53  cut -d/  -f1  /etc/pawwd
+   54  cut -d/  -f1  /etc/passwd
+   55  cut -d/  -f2  /etc/passwd
+   56  clear
+   57  cut -d: -f1 /etc/passwd | grep root
+   58  cd home
+   59  mkdir testFolder
+   60  cd ubuntu/
+   61  mkdir testFolder
+   62  cd testFolder/
+   63  ls
+   64  history > f1
+   65  head -n 2 f1
+   66  ls -li
+   67  touch verina_original
+   68  ln -s verina_original esraa_softLink
+   69  ls -al
+   70  gedit verina_original 
+   71  unlink verina_original 
+   72  ls
+   73  gedit esraa_softLink 
+   74  rm esraa_softLink 
+   75  ln esraa_softLink
+   76  ls
+   77  touch verina_original
+   78  ls
+   79  ln -s verina_original esraaFile
+   80  ls
+   81  unlink verina_original 
+   82  ls
+   83  rm esraaFile 
+   84  touch verina_original
+   85  ln -s verina_original esraaFile
+   86  ls
+   87  unlink esraaFile 
+   88  ls
+   89  rm verina_original 
+   90  ls
+   91  clear
+   92  touch verina_original
+   93  ln verina_original esraa_hard
+   94  ls -li
+   95  ls -al
+   96  history >> history_lastSession
+   97  history >> history_lastSession.txt
